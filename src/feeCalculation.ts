@@ -47,8 +47,8 @@ async function getHashes(address: string, retryCount = 0) {
                 headers: {
                     accept: '*/*',
                     'accept-language': 'en-US,en;q=0.9,ru;q=0.8,bg;q=0.7',
-                    baggage:
-                        'sentry-environment=vercel-production,sentry-release=8b2b3e1a5f4040e5282f0c75f86e8efb01d3fd33,sentry-public_key=7ea9fec73d6d676df2ec73f61f6d88f0,sentry-trace_id=9120fe8b7ed94428851697ab60657409',
+                    // baggage:
+                    //    'sentry-environment=vercel-production,sentry-release=8b2b3e1a5f4040e5282f0c75f86e8efb01d3fd33,sentry-public_key=7ea9fec73d6d676df2ec73f61f6d88f0,sentry-trace_id=9120fe8b7ed94428851697ab60657409',
                     'content-type': 'application/json',
                     'sec-ch-ua': '"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
                     'sec-ch-ua-mobile': '?0',
@@ -56,8 +56,8 @@ async function getHashes(address: string, retryCount = 0) {
                     'sec-fetch-dest': 'empty',
                     'sec-fetch-mode': 'cors',
                     'sec-fetch-site': 'same-origin',
-                    'sentry-trace': '9120fe8b7ed94428851697ab60657409-b26417f0ca88871e-1',
-                    cookie: '_ga=GA1.1.520004272.1700156268; _clck=cbqpar|2|fgr|0|1415; _clsk=1fu326x|1700157520972|18|1|t.clarity.ms/collect; _ga_1ZKFRJ8ERQ=GS1.1.1700156267.1.1.1700157521.0.0.0; _ga_3LWZVPQJTS=GS1.1.1700156268.1.1.1700157521.0.0.0',
+                    // 'sentry-trace': '9120fe8b7ed94428851697ab60657409-b26417f0ca88871e-1',
+                    // cookie: '_ga=GA1.1.520004272.1700156268; _clck=cbqpar|2|fgr|0|1415; _clsk=1fu326x|1700157520972|18|1|t.clarity.ms/collect; _ga_1ZKFRJ8ERQ=GS1.1.1700156267.1.1.1700157521.0.0.0; _ga_3LWZVPQJTS=GS1.1.1700156268.1.1.1700157521.0.0.0',
                     Referer: `https://layerzeroscan.com/address/${address}`,
                     'Referrer-Policy': 'strict-origin-when-cross-origin'
                 }
